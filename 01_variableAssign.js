@@ -1,5 +1,5 @@
 var myFullName;
-console.log("value of console log myFullName => ", myFullName);
+console.log("value of variable myFullName => ", myFullName);
 myFullName ="Satyajit Panaskar";
 console.log("First and Last Name => ", myFullName);
 myFullName = "Satyajit Ranjit Panaskar";

@@ -8,3 +8,6 @@ console.log(city);
 
 var pin; // Variable Declaration
 console.log(pin);
+
+var color = "Red";
+console.log(color);
