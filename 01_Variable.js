@@ -12,3 +12,5 @@ console.log(pin);
 var color = "Red";
 console.log(color);
 console.log(typeof color);
+var salary = null;
+console.log(typeof salary);
