@@ -32,7 +32,7 @@ var FEString = function () {
     console.log(`Given String length is : "${result}"`);
     console.log(`Total Number of Word in the given string  : "${wordCount}"`);
     console.log(`Devide by Total number of words : ${result1}`);
-    console.log(`Multiple by Total number of words : ${result2}`);
+    console.log(`Multiplication by Total number of words : ${result2}`);
     
 }
 var str = "I am Angular Developer";
