@@ -3,7 +3,7 @@ console.log(`---------------------------------- Assignment 1 -------------------
 
 var  score = function (gradScore, hscScore,sscScore, candidateName)
 {
-    var result = gradScore >= 70 && hscScore >= 80 && sscScore >= 90 ?
+    var result =s gradScore >= 70 && hscScore >= 80 && sscScore >= 90 ?
         console.log(`Congrates "${candidateName}" You are eligible for TCS interview`)
         : console.log(`"${candidateName}" you are not eligible for interview`);
 }
@@ -37,5 +37,20 @@ femaleMarriageEligibility("Female", 16, "Jenifer");
 femaleMarriageEligibility("Female", 27, "Malinda Gates");
 femaleMarriageEligibility("Female", 18, "Jeni");
 femaleMarriageEligibility("Female", 17, "Malinda");
+
+
+console.log(`---------------------------------- Step 2 ----------------------------------`);
+
+
+var wordLength = function(word){
+
+    return word.length % 2 === 0 ? `The length of ${word} is: "Even"` : `The length of word ${word} is: "Odd"` ;
+
+
+};
+
+console.log(wordLength("Javascript"));
+console.log(wordLength("Developer"));
+console.log(wordLength("Google"));
 
 
