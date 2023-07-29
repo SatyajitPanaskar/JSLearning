@@ -21,7 +21,9 @@ var resultNum4 = +num4;
 console.log(`Type of resultNum4 is: ${resultNum4}`);
 console.log(`Type of resultNum4 is: ${typeof resultNum4}`);
 
-
+var pin = "202";
+var result = +pin;
+console.log(`result is ${result}`);
 
 
 console.log(`----- Implicit conversion -----`);
