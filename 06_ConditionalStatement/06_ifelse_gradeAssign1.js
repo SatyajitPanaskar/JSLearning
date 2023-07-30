@@ -94,7 +94,7 @@ console.log(`----------------Step 2----------------`);
 var str = "JavaScript-ES6";
 if (str.length >=10)
 {
-    console.log(`The given String more than 10 character and the String length is "${lth}"`);
+    console.log(`The given String more than 10 character and the String length is "${str}"`);
 }
 
 console.log(`---------Step 3----------------`);
