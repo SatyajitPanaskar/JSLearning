@@ -42,3 +42,4 @@ var dayOfWeek = function (day) {
   dayOfWeek(null);
   dayOfWeek(undefined);
   dayOfWeek("GK");
+  
