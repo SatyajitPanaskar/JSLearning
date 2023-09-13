@@ -104,7 +104,7 @@ console.log("---------------String 2---------------");
 reverseString("Soon I will be React Champ");
 
 
-
+/*
 console.log(`----------parth assignment-------------------`);
 function reverseString(str){
 
@@ -126,3 +126,4 @@ console.log(`________________________ String No. 1_____________________________`
 reverseString("Hard Work Always Pays Back");
 console.log(`________________________ String No. 2_____________________________`);
 reverseString("Soon I will be React Champ");
+*/

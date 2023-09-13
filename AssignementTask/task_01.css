@@ -1,0 +1,139 @@
+.container{
+    background-color: rgb(205, 195, 195);
+    height: 1100px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#item_01{
+    height: 180px;
+    width: 680px;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#item_01 h2{
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+.item_02{
+    height: 130px;
+    width: 165px;
+   margin-top: 5px;
+   margin-left:2px ;
+   display: inline-block;
+    
+}
+.item_02 h2{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+#item_002{
+   margin-left: 10px;
+    background-color: rgb(255, 89, 0);
+    
+}
+
+#item_03{
+      background-color: rgb(255, 140, 0);
+   
+}
+
+#item_04{
+     background-color: rgb(255, 89, 0);
+    
+}
+
+#item_05{
+  background-color:rgb(255, 140, 0);
+}
+
+/*
+#item_06 p {
+    background-color: rgb(5, 89, 5);
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+li 
+{
+ list-style-type: none;
+width: 164px;
+height: 23px;
+margin-left: -30px;
+background-color:rgb(10, 199, 10);
+margin-top: 100px;
+margin-bottom: -18px;
+margin-top: -13px;
+
+
+}
+*/
+#item_06{
+    background-color: rgb(186, 11, 11);
+    height: 170px;
+    width: 165px;
+    display: inline-block;
+
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#item_06 li {
+    background-color: green;
+    height: 20px;
+    width: 170px;
+    margin-bottom: -13px;
+    margin-left: -40px;
+    margin-top: -15px; 
+   
+  
+}
+
+#item_06 p{
+    background-color: rgb(2, 39, 2);
+    width: 20px;
+   height: 20px;
+    text-align: center;
+    
+   
+}
+#item_07{
+    background-color: green;
+    height: 300px;
+    width: 336px;
+    display:inline-block;
+   
+}
+.flextry{
+    display: flex;
+    flex-direction: column;
+    
+}
+#item_08{
+    background-color: aqua;
+    width: 122px;
+    height: 122px;
+}
+#item_11{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+#item_12{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+

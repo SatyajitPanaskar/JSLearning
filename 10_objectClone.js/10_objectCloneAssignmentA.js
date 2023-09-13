@@ -45,14 +45,16 @@ console.log(`-------------------------------------------------------------------
 console.log(`------------------ Step 05 -------------------`);
 
 let str = "Codemind Technology";
-let lengthStr = str.length;
-let space =[''];
 
-console.log(`The Given String Length is : ${lengthStr}`);
-for (let index =str.length-1; index >8; index--) {
-    const element = str[index];
-    space.push(element);
-    
+let separate = str.split(" ");
+console.log(separate);
+let reverseword = separate[1];
+let finalReverse = "";
+
+for (let index = reverseword.length - 1; index >= 0; index--)
+{
+    finalReverse += reverseword[index];
 }
+console.log(finalReverse);
 
-console.log(`Reveese the word :${space}`);
+console.log(`---------------------------------------------------------------------------`);

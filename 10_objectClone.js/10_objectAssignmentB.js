@@ -21,10 +21,8 @@ let result = Object.assign({}, bankSBI, location);
 console.table(result);
 
 
-let usingSpread = { ...bankSBI };
-usingSpread.bankName = "HDFC Bank";
-console.log(bankSBI.bankName);
-console.log(usingSpread.bankName);
+let usingSpread = { ...bankSBI, ...location };
+console.table(usingSpread);
 console.log(`---------------------------------------------------------------------`);
 let sbiDetails = Object.assign({}, bankSBI, location, rateOfInterest);
 console.log(`Marge the bankSBI, location and rateOfInterest `);

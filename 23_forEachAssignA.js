@@ -73,8 +73,3 @@ arrayNumbers.forEach((element,index) => {
    
 });
 
-console.log(`  `);
-console.log(`    `);
-console.log(`        `);
-console.log(`     `);
-console.log(`       `);

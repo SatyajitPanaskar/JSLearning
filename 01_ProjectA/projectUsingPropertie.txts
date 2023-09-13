@@ -1,0 +1,13 @@
+
+project using properties 
+1 opacity: .6; ---- text ligh kami karnya sathi use kartat
+2. remixIcon --- arrow(-->) sathi he web site ahe
+3 - smooth scrolling 
+--  1.attch loco scroll css
+    2.attch locomotive scroll min js
+    3. some code from github for js
+
+4- gsap --
+  1. attch gsap
+  2. 
+5- scrolltrigger

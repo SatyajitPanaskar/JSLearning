@@ -12,10 +12,11 @@ console.log(`------- Step 2-----------------------------------------------------
 let newArray = array;
 let deepClone = [...newArray];
 newArray.push(10, 25);
-console.log(`Clone Array : ${deepClone}`);
+
 console.log(`Orginal Array :${newArray}`);
+console.log(`Clone Array : ${deepClone}`);
 
-
+console.log(array1);
 console.log(`---- step 3----------------------------------------------`);
 
 let arrayEven = [2, 30, 14, 8];

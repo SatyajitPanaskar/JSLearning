@@ -32,7 +32,7 @@ array.forEach((cmp) => {
 });
  
 console.log(`--------------------------------------------------------------------------------------------------------------------`);
-console.log(`1>------- Step:2 Find all the Employees Finance Department and log only employees names and department -------`);
+console.log(`2>------- Step:2 Find all the Employees Finance Department and log only employees names and department -------`);
 array.forEach((department) => { 
     if (department.emp_dept == "Finance")
     {
@@ -52,7 +52,7 @@ array.forEach((startsName) => {
 });
  
 console.log(`--------------------------------------------------------------------------------------------------------------------`);
-console.log(`3>-------Step:4 Find the Employees whose salary is greter than 75000, and log on console employee name, company, salary -------`);
+console.log(`4>-------Step:4 Find the Employees whose salary is greter than 75000, and log on console employee name, company, salary -------`);
 array.forEach((salaryGreter) => { 
     if (salaryGreter.emp_salary > 75000)
     {
@@ -73,7 +73,7 @@ array.forEach((salaryGreterEqual) => {
  
 
 console.log(`--------------------------------------------------------------------------------------------------------------------`);
-console.log(`5->-------Step:6 Find the all Employees from company "Infy" and log complete employee details on console-------`);
+console.log(`6->-------Step:6 Find the all Employees from company "Infy" and log complete employee details on console-------`);
 array.forEach((cmpInfy) => { 
     if (cmpInfy.emp_company == "Infy")
     {

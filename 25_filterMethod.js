@@ -83,3 +83,20 @@ const numbet = arrayNumbers1.filter((element) => {
     return element>20 && element<50;
 });
 console.log(numbet);
+
+class Person {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+    sayHello() {
+      console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+}
+
+let rushi_1 = new Person("rushi", 22);
+rushi_1.sayHello();
+
+
+
+
