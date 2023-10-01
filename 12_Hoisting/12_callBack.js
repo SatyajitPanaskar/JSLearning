@@ -20,3 +20,6 @@ let stewCopyHomework2 = function () {
     console.log(`Stew copied all homework`);
 }
 jennyHomework(stewCopyHomework,stewCopyHomework2);
+
+
+

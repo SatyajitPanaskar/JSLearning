@@ -1,0 +1,37 @@
+
+BOM - The browser object model (BOM) is the core of javascript on the web
+       the BOM provides you with object that expose the web browser functionality.
+      
+     1.Get width and height of browser window ---
+      the window width is used for returning the width of a window content area.
+      the window height is used for returning the height of a window content area.
+        innerHeight innerWidth
+        outerHeight,outerWidth
+
+     2. open & close browser window -- 
+        The Open() method of the window interface loads a specified resourse into a new or 
+        existing browsing context (That is a table a , window or an iframe) under a specified name.
+        The window.close() method close the curerent window or the window on  which 
+        it was called.
+     3. Move &  resize browser window
+     4. scroll to browser window 
+     5. get uRL, Hostname, protocol of browser window
+     6. get history of browser window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
